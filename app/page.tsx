@@ -1,21 +1,16 @@
 import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 import MenuLink from "@/components/MenuLink";
+import PageBackground from "@/components/PageBackground";
 
 export default function Home() {
   return (
-    <main id="top" className="min-h-screen bg-[#f8f7f3] text-[#172a3a]">
+    <main id="top" className="relative min-h-screen text-[#172a3a]">
+      <PageBackground />
+
       {/* Hero */}
       <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6">
-        {/* Decorative circles */}
-        <div className="absolute -left-24 top-24 h-64 w-64 rounded-full bg-[#dcecf0] opacity-60 blur-3xl" />
-        <div className="absolute -right-24 bottom-24 h-72 w-72 rounded-full bg-[#e5eef1] opacity-70 blur-3xl" />
-
         <div className="relative z-10 text-center">
-          <p className="mb-6 text-xs tracking-[0.4em] text-[#6b7f8d]">
-            OUR PROFILE
-          </p>
-
           <h1 className="font-serif text-5xl tracking-[0.12em] sm:text-7xl">
             T & A
           </h1>
@@ -43,7 +38,7 @@ export default function Home() {
       </section>
 
       {/* Introduction */}
-      <section id="about" className="px-6 py-24 sm:py-32">
+      <section id="about" className="relative px-6 py-24 sm:py-32">
         <FadeIn>
           <div className="mx-auto max-w-2xl text-center">
             <p className="mb-4 text-xs tracking-[0.35em] text-[#6b7f8d]">
@@ -70,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* Menu */}
-      <section className="px-6 py-20">
+      <section className="relative px-6 py-20">
         <FadeIn>
           <div className="mx-auto max-w-md">
             <div className="mb-12 text-center">
@@ -81,11 +76,15 @@ export default function Home() {
 
             <div className="space-y-4">
               <MenuLink href="/our-story" en="OUR STORY" ja="ふたりの歩み" />
-
               <MenuLink
                 href="/our-travels"
                 en="OUR TRAVELS"
                 ja="ふたりの海外渡航歴"
+              />
+              <MenuLink
+                href="/our-wedding"
+                en="OUR WEDDING"
+                ja="私たちの結婚式"
               />
             </div>
           </div>
@@ -93,7 +92,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="px-6 pb-10 pt-24 sm:pt-32">
+      <footer className="relative px-6 pb-10 pt-24 sm:pt-32">
         <FadeIn>
           <div className="mx-auto max-w-2xl border-t border-[#c8d1d5] pt-12 text-center">
             <p className="text-[10px] tracking-[0.4em] text-[#87969e]">
