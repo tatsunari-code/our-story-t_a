@@ -258,7 +258,7 @@ export default function OurStory() {
             </p>
 
             <h2 className="font-serif text-3xl tracking-[0.08em] sm:text-4xl">
-              ふたりの旅路
+              ふたりの歩み
             </h2>
           </div>
 
