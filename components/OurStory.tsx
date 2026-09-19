@@ -38,7 +38,7 @@ const stories: Story[] = [
   {
     date: "2021.03.29",
     title: "HAMABE MINAMI EXPLORATION TEAM",
-    text: "「浜辺美波探検隊」が結成。辺美波さんのロケ地を巡ることを目的とし、2026/11/08現在まで活動回数は1回。次回未定。",
+    text: "「浜辺美波探検隊」が結成。浜辺美波さんのドラマロケ地を巡ることを目的とし、2026/11/08現在まで活動回数は1回。次回探検日は未定。",
     photos: [
       {
         src: IMAGE_PASS + "20210329_hamabe_jump_hamabe.webp",
@@ -100,7 +100,7 @@ const stories: Story[] = [
   {
     date: "2022.06.25",
     title: "FIRST DISNEY LAND",
-    text: "初めてのディズニーランド。",
+    text: "ふたりで行く初めてのディズニーランド。",
     photos: [
       {
         src: IMAGE_PASS + "20220625_first_disney.webp",
@@ -119,14 +119,14 @@ const stories: Story[] = [
       },
       {
         src: IMAGE_PASS + "20220925_haripota_2.webp",
-        comment: "藤原さんの叫ぶシーンはカイジ過ぎました",
+        comment: "藤原さんが叫ぶとカイジになります",
       },
     ],
   },
   {
     date: "2024.10.26",
     title: "STUDY ABROAD AYUMI",
-    text: "あゆみ、意を決して海外留学（オーストラリア）へ",
+    text: "あゆみ、意を決して海外留学へ（オーストラリア）",
     photos: [
       {
         src: IMAGE_PASS + "20241026_ayumi_study.webp",
@@ -151,15 +151,15 @@ const stories: Story[] = [
   {
     date: "2025.05.02 — 05.06",
     title: "HONG KONG",
-    text: "2か国目は香港に行きました。",
+    text: "2か国目は香港",
     photos: [
       {
         src: IMAGE_PASS + "20250502_hongkong_breacfast.webp",
-        comment: "自分たちのご飯のように見えますが、知らない人のご飯です",
+        comment: "自分たちのご飯のように撮ってますが、知らない人のご飯です",
       },
       {
         src: IMAGE_PASS + "20250502_hongkong_night-view.webp",
-        comment: "2時間並んだあとなので、顔が疲れてます",
+        comment: "2時間並んだあとなので、疲労顔",
       },
       {
         src: IMAGE_PASS + "20250502_hongkong-disney.webp",
@@ -167,7 +167,7 @@ const stories: Story[] = [
       },
       {
         src: IMAGE_PASS + "20250502_ayumi_flight-mode.webp",
-        comment: "帰りの飛行機で現れた、あゆみ完全防御形態",
+        comment: "帰りの飛行機で現れた、完全防御形態AYUMI",
       },
     ],
   },
@@ -193,7 +193,7 @@ const stories: Story[] = [
   {
     date: "2025.11.22 — 11.25",
     title: "SHANGHAI",
-    text: "上海へ。少しずつ、ふたりの世界が広がっていきました。",
+    text: "3か国目は上海へ。海外へ行くほど日本が好きになる。",
     photos: [
       {
         src: IMAGE_PASS + "20251122_starbucks.webp",
@@ -227,7 +227,7 @@ const stories: Story[] = [
   {
     date: "2026.05.31 - 11.07",
     title: "WEDDING PREPARATION",
-    text: "NEEDS代官山さんで式を挙げさせていただくことに決め、準備じゅんびJUNBIの毎日。。。",
+    text: "NEEDS代官山で式を挙げることに決め、準備じゅんびJUNBIの毎日。。。",
     photos: [
       {
         src: IMAGE_PASS + "20260531_chapel.webp",

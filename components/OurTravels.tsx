@@ -204,7 +204,7 @@ const surveyResults = [
 ];
 
 const colors: Record<TravelType, string> = {
-  together: "#7fa8b5",
+  together: "#73bda0",
   groom: "#8fa9c0",
   bride: "#c89b9b",
   separate: "#9d8fb0",
@@ -532,6 +532,8 @@ export default function OurTravels() {
             これまでにふたりが訪れた国。
             <br />
             一緒に行った場所も、別々に訪れた場所も。
+            <br />
+            全部塗りつぶせたらいいなぁ
           </p>
         </div>
 
@@ -645,9 +647,11 @@ export default function OurTravels() {
             </h2>
 
             <p className="mx-auto mt-5 max-w-xl text-xs leading-7 tracking-[0.08em] text-[#87969e]">
-              結婚式の招待状でみんなに聞いてみました。
+              結婚式の招待状にて、 皆さまにおすすめの旅先を聞いてみました。
               <br />
-              ふたりにおすすめしたい旅先ランキング。
+              頂いたおすすめを、ランキング形式でご紹介します。
+              <br />
+              皆さまのおすすめ、全部行ってみせます。
             </p>
           </div>
 
