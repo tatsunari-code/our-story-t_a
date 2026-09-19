@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
+import type { Feature, FeatureCollection, Geometry } from "geojson";
 
 type TravelType = "together" | "groom" | "bride" | "separate";
 
@@ -22,16 +23,9 @@ type CountryProperties = {
   [key: string]: unknown;
 };
 
-type CountryFeature = {
-  type: string;
-  properties: CountryProperties;
-  geometry: unknown;
-};
+type CountryFeature = Feature<Geometry, CountryProperties>;
 
-type CountryFeatureCollection = {
-  type: string;
-  features: CountryFeature[];
-};
+type CountryFeatureCollection = FeatureCollection<Geometry, CountryProperties>;
 
 const travels: Travel[] = [
   {
@@ -374,7 +368,7 @@ export default function OurTravels() {
           .append("path")
           .datum({
             type: "Sphere",
-          })
+          } as d3.GeoSphere)
           .attr("class", "sphere")
           .attr("fill", "#eef3f4")
           .attr("stroke", "#c8d1d5")
