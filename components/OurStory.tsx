@@ -33,7 +33,7 @@ const stories: Story[] = [
   },
   {
     date: "2021.03.19",
-    title: "START",
+    title: "START DAY",
     text: "ふたりが付き合った日。",
     photos: [
       {
@@ -67,31 +67,37 @@ const stories: Story[] = [
     text: "ふたりで行く初めてのディズニーシー。",
     photos: [
       {
-        src: IMAGE_PASS + "20210429_first_disney-sea_front.webp",
-        comment: "前です",
+        src: IMAGE_PASS + "20210429_ship.webp",
+        fullSize: true,
       },
       {
         src: IMAGE_PASS + "20210429_first_disney-sea_back.webp",
-        comment: "後ろです",
+        fullSize: true,
       },
     ],
   },
   {
-    date: "2022.03.27",
+    date: "2022.03.19",
     title: "1ST ANNIVERSARY",
     text: "1年記念はシュラスコ。",
     photos: [
       {
-        src: IMAGE_PASS + "20220327_churrasco.webp",
+        src: IMAGE_PASS + "20220319_two.webp",
+      },
+      {
+        src: IMAGE_PASS + "20220319_churrasco.webp",
         comment: "食べ過ぎ飲みすぎでグロッキー",
       },
     ],
   },
   {
     date: "2022.04.22 — 04.24",
-    title: "USJ & STAGE",
+    title: "USJ & SPIRITED AWAY ON STAGE",
     text: "USJ、そして千と千尋の舞台へ。",
     photos: [
+      {
+        src: IMAGE_PASS + "20220422_castle.webp",
+      },
       {
         src: IMAGE_PASS + "20220422_usj.webp",
       },
@@ -100,7 +106,6 @@ const stories: Story[] = [
       },
       {
         src: IMAGE_PASS + "20220422_sen_2.webp",
-        comment: "橋本環奈は実在していた",
       },
     ],
   },
@@ -113,11 +118,14 @@ const stories: Story[] = [
         src: IMAGE_PASS + "20220625_first_disney.webp",
         comment: "かーみーさーまー",
       },
+      {
+        src: IMAGE_PASS + "20220625_castle.webp",
+      },
     ],
   },
   {
     date: "2022.09.25",
-    title: "HARRY POTTER",
+    title: "HARRY POTTER ON STAGE",
     text: "舞台「ハリー・ポッター」鑑賞。",
     photos: [
       {
@@ -126,7 +134,62 @@ const stories: Story[] = [
       },
       {
         src: IMAGE_PASS + "20220925_haripota_2.webp",
-        comment: "藤原さんが叫ぶとカイジになります",
+        comment: "ハリポタなのにカイジいた",
+      },
+    ],
+  },
+  {
+    date: "2023.03.17 - 19",
+    title: "2ND ANNIVERSARY",
+    text: "2年記念は仙台旅行へ",
+    photos: [
+      {
+        src: IMAGE_PASS + "20230317_yukata.webp",
+        fullSize: true,
+      },
+      {
+        src: IMAGE_PASS + "20230317_kiro.webp",
+        fullSize: true,
+      },
+      {
+        src: IMAGE_PASS + "20230317_fox.webp",
+        comment: "きつね",
+      },
+    ],
+  },
+  {
+    date: "2023.11.23 - 25",
+    title: "MIE TRIP",
+    text: "三重を巡る",
+    photos: [
+      {
+        src: IMAGE_PASS + "20231123_hakugei.webp",
+      },
+      {
+        src: IMAGE_PASS + "20231123_arashi.webp",
+      },
+      {
+        src: IMAGE_PASS + "20231123_create.webp",
+      },
+      {
+        src: IMAGE_PASS + "20231123_ise.webp",
+      },
+    ],
+  },
+  {
+    date: "2024.03.19",
+    title: "3RD ANNIVERSARY",
+    text: "3年記念は「星のなる木」でお祝い",
+    photos: [
+      {
+        src: IMAGE_PASS + "20240319_hosi.webp",
+      },
+      {
+        src: IMAGE_PASS + "20240319_two.webp",
+      },
+      {
+        src: IMAGE_PASS + "20240319_ayu.webp",
+        fullSize: true,
       },
     ],
   },
@@ -156,6 +219,19 @@ const stories: Story[] = [
     ],
   },
   {
+    date: "2025.03.19",
+    title: "4TH ANNIVERSARY",
+    text: "4年記念は引っ越しが重なり、自宅でお祝い",
+    photos: [
+      {
+        src: IMAGE_PASS + "20250319_gohan.webp",
+      },
+      {
+        src: IMAGE_PASS + "20250319_gohan2.webp",
+      },
+    ],
+  },
+  {
     date: "2025.05.02 — 05.06",
     title: "HONG KONG",
     text: "2か国目は香港",
@@ -166,11 +242,16 @@ const stories: Story[] = [
       },
       {
         src: IMAGE_PASS + "20250502_hongkong_night-view.webp",
-        comment: "2時間並んだあとなので、疲労顔",
+        comment: "2時間並んだあとなので、顔やばい笑",
+      },
+      {
+        src: IMAGE_PASS + "20250502_castle.webp",
+        fullSize: true,
       },
       {
         src: IMAGE_PASS + "20250502_hongkong-disney.webp",
         comment: "なんか色々すごかった香港ディズニー",
+        fullSize: true,
       },
       {
         src: IMAGE_PASS + "20250502_ayumi_flight-mode.webp",
@@ -208,11 +289,14 @@ const stories: Story[] = [
           "購入した商品にオプションがついていることを知らず、思ったより高い買い物をしてしまった後の顔",
       },
       {
-        src: IMAGE_PASS + "20251122_shanghai-disney.webp",
-      },
-      {
         src: IMAGE_PASS + "20251122_donald.webp",
         comment: "海外のドナルド怖い、食べられそう",
+      },
+      {
+        src: IMAGE_PASS + "20251122_disney_ironman.webp",
+      },
+      {
+        src: IMAGE_PASS + "20251122_shanghai-disney.webp",
       },
       {
         src: IMAGE_PASS + "20251122_hotel.webp",
@@ -232,9 +316,25 @@ const stories: Story[] = [
     ],
   },
   {
+    date: "2026.05.24",
+    title: "MEETING OF THE FAMILIES",
+    text: "両家の顔合わせ、",
+    photos: [
+      {
+        src: IMAGE_PASS + "20260524_dish.webp",
+      },
+      {
+        src: IMAGE_PASS + "20260524_ayu.webp",
+      },
+      {
+        src: IMAGE_PASS + "20260524_family.webp",
+      },
+    ],
+  },
+  {
     date: "2026.05.31 - 11.07",
     title: "WEDDING PREPARATION",
-    text: "NEEDS代官山で式を挙げることに決め、準備じゅんびJUNBIの毎日。。。",
+    text: "NEEDS代官山で式を挙げることに決め、準備の日々",
     photos: [
       {
         src: IMAGE_PASS + "20260531_chapel.webp",
