@@ -179,7 +179,7 @@ const stories: Story[] = [
   {
     date: "2024.03.19",
     title: "3RD ANNIVERSARY",
-    text: "3年記念は「星のなる木」でお祝い",
+    text: "3年記念は「天空の庭星のなる木（池袋）」でお祝い",
     photos: [
       {
         src: IMAGE_PASS + "20240319_hosi.webp",
@@ -318,7 +318,7 @@ const stories: Story[] = [
   {
     date: "2026.05.24",
     title: "MEETING OF THE FAMILIES",
-    text: "両家の顔合わせ、",
+    text: "両家顔合わせ、「新宿星のなる木（新宿三丁目）」にて",
     photos: [
       {
         src: IMAGE_PASS + "20260524_dish.webp",
