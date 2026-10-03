@@ -23,6 +23,13 @@ const stories: Story[] = [
     date: "2021.03.05",
     title: "THE BEGINNING",
     text: "ふたりが出会った日。",
+    photos: [
+      {
+        src: IMAGE_PASS + "20210305_ceremony.webp",
+        comment: "最初のツーショットは卒業式です",
+        fullSize: true,
+      },
+    ],
   },
   {
     date: "2021.03.19",
