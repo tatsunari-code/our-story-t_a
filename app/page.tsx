@@ -115,10 +115,6 @@ export default function Home() {
             >
               ↑ BACK TO TOP
             </Link>
-
-            <p className="mt-12 text-[9px] tracking-[0.18em] text-[#a5b0b5]">
-              TATSUYA & AYUMI
-            </p>
           </div>
         </FadeIn>
       </footer>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import OurTravels from "@/components/OurTravels";
 
 export const metadata: Metadata = {
-  title: "Our Travels | Tatsuya & Ayumi",
+  title: "Our Travels",
   description: "ふたりの海外渡航歴",
 };
 
