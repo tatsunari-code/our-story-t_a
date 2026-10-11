@@ -5,7 +5,7 @@ import PageBackground from "@/components/PageBackground";
 import WeddingCountdown from "@/components/WeddingCountdown";
 
 export const metadata: Metadata = {
-  title: "Our Wedding | Tatsuya & Ayumi",
+  title: "Our Wedding",
   description: "結婚式のこれから。",
 };
 
