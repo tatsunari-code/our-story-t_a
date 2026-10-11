@@ -13,14 +13,40 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tatsuya & Ayumi",
-  description: "Tatsuya & Ayumi site",
+  title: {
+    default: "T & A",
+    template: "%s | T & A",
+  },
+
+  description: "Tatsuya & Ayumi の思い出と軌跡を綴ったウェディングサイトです。",
+
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
+
+  openGraph: {
+    title: "T & A OUR-STORY",
+    description: "Tatsuya & Ayumi の思い出",
+    url: "https://our-story-t-a.vercel.app/", // 実際の公開URLに書き換えてください
+    siteName: "T & A OUR-STORY",
+    images: [
+      {
+        url: "https://our-story-t-a.vercel.app/favicon.png",
+        width: 800,
+        height: 800,
+        alt: "T & A OUR-STORY アイコン",
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="ja"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>

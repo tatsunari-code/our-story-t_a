@@ -4,7 +4,7 @@ import OurStory from "@/components/OurStory";
 import PageBackground from "@/components/PageBackground";
 
 export const metadata: Metadata = {
-  title: "Our Story | Tatsuya & Ayumi",
+  title: "Our Story",
   description: "ふたりの歩み",
 };
 
