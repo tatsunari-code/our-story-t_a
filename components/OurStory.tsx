@@ -26,7 +26,7 @@ const stories: Story[] = [
     photos: [
       {
         src: IMAGE_PASS + "20210305_ceremony.webp",
-        comment: "最初のツーショットは卒業式です",
+        comment: "最初のツーショットは大学の卒業式です",
         fullSize: true,
       },
     ],
@@ -99,9 +99,6 @@ const stories: Story[] = [
         src: IMAGE_PASS + "20220422_castle.webp",
       },
       {
-        src: IMAGE_PASS + "20220422_usj.webp",
-      },
-      {
         src: IMAGE_PASS + "20220422_sen_1.webp",
       },
       {
@@ -126,7 +123,7 @@ const stories: Story[] = [
   {
     date: "2022.09.25",
     title: "HARRY POTTER ON STAGE",
-    text: "舞台「ハリー・ポッター」鑑賞。",
+    text: "舞台「ハリー・ポッターと呪いの子」鑑賞。",
     photos: [
       {
         src: IMAGE_PASS + "20220925_haripota_1.webp",
@@ -170,6 +167,7 @@ const stories: Story[] = [
       },
       {
         src: IMAGE_PASS + "20231123_create.webp",
+        comment: "「鍋敷き」と「コースター（ねずみ入り）」",
       },
       {
         src: IMAGE_PASS + "20231123_ise.webp",
@@ -190,6 +188,7 @@ const stories: Story[] = [
       {
         src: IMAGE_PASS + "20240319_ayu.webp",
         fullSize: true,
+        comment: "親知らず抜いて腫れかけているほっぺを見せつけてるの図",
       },
     ],
   },
@@ -200,7 +199,7 @@ const stories: Story[] = [
     photos: [
       {
         src: IMAGE_PASS + "20241026_ayumi_study.webp",
-        comment: "緊張してます",
+        comment: "不安と期待が入り混じった表情",
       },
     ],
   },
@@ -213,15 +212,23 @@ const stories: Story[] = [
         src: IMAGE_PASS + "20241228_ma-lion.webp",
       },
       {
+        src: IMAGE_PASS + "20241228_conan.webp",
+      },
+      {
         src: IMAGE_PASS + "20241228_casino.webp",
         comment: "左：カジノで負けた人　右：カジノで勝った人",
+      },
+      {
+        src: IMAGE_PASS + "20241228_fireflower.webp",
+        comment:
+          "年越しカウントダウン（1時間前にあゆみ号泣とガチギレ。詳細を知りたい方はたつやまで）",
       },
     ],
   },
   {
     date: "2025.03.19",
     title: "4TH ANNIVERSARY",
-    text: "4年記念は引っ越しが重なり、自宅でお祝い",
+    text: "4年記念は引っ越しが重なり、自宅でお祝い。同時に同棲スタート。",
     photos: [
       {
         src: IMAGE_PASS + "20250319_gohan.webp",
@@ -242,20 +249,24 @@ const stories: Story[] = [
       },
       {
         src: IMAGE_PASS + "20250502_hongkong_night-view.webp",
-        comment: "2時間並んだあとなので、顔やばい笑",
+        comment: "2時間並んだあとの夜景、顔やばい",
+      },
+      {
+        src: IMAGE_PASS + "20250502_donald.webp",
+        fullSize: true,
       },
       {
         src: IMAGE_PASS + "20250502_castle.webp",
         fullSize: true,
       },
       {
-        src: IMAGE_PASS + "20250502_hongkong-disney.webp",
-        comment: "なんか色々すごかった香港ディズニー",
-        fullSize: true,
+        src: IMAGE_PASS + "20250502_sunglass.webp",
+        comment: "がはーーー",
       },
       {
         src: IMAGE_PASS + "20250502_ayumi_flight-mode.webp",
         comment: "帰りの飛行機で現れた、完全防御形態AYUMI",
+        fullSize: true,
       },
     ],
   },
@@ -266,15 +277,19 @@ const stories: Story[] = [
     photos: [
       {
         src: IMAGE_PASS + "20250915_sap_1.webp",
+        comment: "1",
       },
       {
         src: IMAGE_PASS + "20250915_sap_2.webp",
+        comment: "2",
       },
       {
         src: IMAGE_PASS + "20250915_sap_3.webp",
+        comment: "3",
       },
       {
         src: IMAGE_PASS + "20250915_sap_4.webp",
+        comment: "4",
       },
     ],
   },
@@ -284,16 +299,27 @@ const stories: Story[] = [
     text: "3か国目は上海へ。海外へ行くほど日本が好きになる。",
     photos: [
       {
+        src: IMAGE_PASS + "20251122_yuen.webp",
+        comment: "たくさん屋台があって、たくさん偽物があった",
+      },
+      {
+        src: IMAGE_PASS + "20251122_yakei.webp",
+        comment: "タクシーの運転手がずっとキレていた後の夜景ツーショット",
+      },
+      {
         src: IMAGE_PASS + "20251122_starbucks.webp",
         comment:
           "購入した商品にオプションがついていることを知らず、思ったより高い買い物をしてしまった後の顔",
       },
       {
         src: IMAGE_PASS + "20251122_donald.webp",
-        comment: "海外のドナルド怖い、食べられそう",
+        comment: "海外のドナルド怖くない？食べられそう",
       },
       {
         src: IMAGE_PASS + "20251122_disney_ironman.webp",
+      },
+      {
+        src: IMAGE_PASS + "20251122_tron.webp",
       },
       {
         src: IMAGE_PASS + "20251122_shanghai-disney.webp",
@@ -312,6 +338,9 @@ const stories: Story[] = [
       {
         src: IMAGE_PASS + "20260319_proposal.webp",
         comment: "かしこまったのは苦手なので、寝っ転がりながら、、、",
+      },
+      {
+        src: IMAGE_PASS + "20260319_gassho.webp",
       },
     ],
   },
@@ -340,15 +369,18 @@ const stories: Story[] = [
         src: IMAGE_PASS + "20260531_chapel.webp",
       },
       {
+        src: IMAGE_PASS + "20260531_with_planner.webp",
+      },
+      {
         src: IMAGE_PASS + "20260531_cicada.webp",
-        comment: "僕たちのプランナーさんは、新婦をセミから守ってくれます",
+        comment: "新婦をセミから守るウェディングプランナー西田さん",
         fullSize: true,
       },
     ],
   },
   {
     date: "2026.11.08",
-    title: "NOW LOADING...",
+    title: "結婚式当日（NOW LOADING...）",
     text: "後日更新する...かも",
   },
 ];
