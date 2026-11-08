@@ -2,12 +2,13 @@
 
 import { useEffect, useState } from "react";
 
-const WEDDING_DATE = new Date("2026-11-08T16:00:00+09:00");
+const WEDDING_DATE = new Date(Date.UTC(2026, 10, 8, 7, 0, 0));
 
 type ElapsedTime = {
   years: number;
   months: number;
   days: number;
+  hours: number;
   minutes: number;
   seconds: number;
 };
@@ -15,12 +16,12 @@ type ElapsedTime = {
 function getElapsedTime(start: Date): ElapsedTime {
   const now = new Date();
 
-  // 結婚式開始前はすべて0
   if (now < start) {
     return {
       years: 0,
       months: 0,
       days: 0,
+      hours: 0,
       minutes: 0,
       seconds: 0,
     };
@@ -73,28 +74,29 @@ function getElapsedTime(start: Date): ElapsedTime {
     years,
     months,
     days,
+    hours,
     minutes,
     seconds,
   };
 }
 
 export default function WeddingCountdown() {
-  const [time, setTime] = useState<ElapsedTime>({
+  const [time, setTime] = useState<ElapsedTime>(() => ({
     years: 0,
     months: 0,
     days: 0,
+    hours: 0,
     minutes: 0,
     seconds: 0,
-  });
+  }));
 
   useEffect(() => {
-    const update = () => {
+    // マウント時に一度実行
+    setTime(getElapsedTime(WEDDING_DATE));
+
+    const interval = window.setInterval(() => {
       setTime(getElapsedTime(WEDDING_DATE));
-    };
-
-    update();
-
-    const interval = window.setInterval(update, 1000);
+    }, 1000);
 
     return () => {
       window.clearInterval(interval);
@@ -105,6 +107,7 @@ export default function WeddingCountdown() {
     { value: time.years, label: "YEARS" },
     { value: time.months, label: "MONTHS" },
     { value: time.days, label: "DAYS" },
+    { value: time.hours, label: "HOURS" }, // 追加
     { value: time.minutes, label: "MINUTES" },
     { value: time.seconds, label: "SECONDS" },
   ];
@@ -115,7 +118,7 @@ export default function WeddingCountdown() {
         SINCE WE SAID "I DO"
       </p>
 
-      <div className="mt-8 grid grid-cols-5 gap-2 sm:gap-4">
+      <div className="mt-8 grid grid-cols-6 gap-2 sm:gap-4">
         {items.map((item) => (
           <div
             key={item.label}
